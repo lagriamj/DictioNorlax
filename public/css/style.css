@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffc107;
+  color: #555;
+  line-height: 1.6em;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  height: auto;
+  margin-left: 20px;
+  width: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .snorlax {
+  padding: 10px 0;
+}
+
+.navbar h3 {
+  color: #ffc107;
+  font-size: 32px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.navbar .title {
+  outline: none;
+  border: none;
+}
+
+.navbar .title:hover {
+  outline: none;
+  border: none;
+}
+
+.navbar input {
+  padding: 10px;
+  border: none;
+  font-size: 22px;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.navbar button {
+  height: 50px;
+  background-color: #343a40;
+  background: #ffc107;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  border: 1px solid transparent;
+}
+
+.navbar button:hover {
+  background: transparent;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.navbar .about {
+  margin-left: 680px;
+}
+
+.navbar a {
+  float: right;
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+}
+.navbar a:hover {
+  background: transparent;
+  color: #ffc107;
+  border: 1px solid #343a40;
+  text-decoration: underline;
+}
+
+.container {
+  height: 550px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #343a40;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.container label {
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 20px;
+  font-size: 28px;
+  text-decoration: underline;
+  transition: 1s ease;
+  margin-bottom: 50px;
+}
+
+
+.container label:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.container .meaning {
+  margin: 0 70px;
+  color: white;
+  padding: 0 20px;
+  padding-top: 120px;
+  padding-bottom: 5px;
+  border: 5px;
+  border-bottom: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: white;
+  min-height: 50px;
+  transition: 1s ease;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container .meaning:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.container .meaning p {
+  min-height: 50px;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-top: -120px;
+  margin-bottom: 20px;
+}
+
+
+.vocabularyLabel {
+  float: right;
+  height: 70px;
+  width: 45%;
+  margin-right: 20px;
+  border: 1px solid #343a40;
+  background-color: #343a40;
+  border-radius: 20px;
+  color: #ffff;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+  right: 0;
+  font-size: 28px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vocabularyLabel label {
+  padding: 10px 20px;
+}
+
+.newVocabulary {
+  width: 45%;
+  height: 212px;
+  background-color: #343a40;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  transition: 1s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newVocabulary:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+}
+
+.newVocabulary p {
+  color: white;
+  padding: 20px 60px;
+  font-size: 22px;
+  max-height: 50px;
+}
+
+.wordOfTheDay {
+  width: 50%;
+  height: 165px;
+  background-color: #343a40;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  transition: 1s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wordOfTheDay:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  transition: 1s ease;
+}
+
+.wordOfTheDay label {
+  color: white;
+  font-size: 26px;;
+  padding: 0 15px;
+  margin-left: 5px;
+}
+
+.wordOfTheDay p {
+  color: white;
+  padding-right: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.aboutBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #f2f3f7;
+}
+
+.header {
+  border: none;
+  display: flex;
+  margin-top: 10px;
+  font-size: 34px;
+  justify-content: center;
+  color: #343a40;
+}
+
+.header img {
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.aboutBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -130px;
+  height: 90%;
+  background-color: #343a40;
+  background-image: url(https://images.alphacoders.com/201/thumb-1920-201831.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.containerProfile {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 550px;
+  background-color: #ffff;
+  color: #343a40;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 100px;
+  text-align: center;
+  transition: 1s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.containerProfile:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.containerProfile img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.containerProfile h4 {
+  font-size: 18px;
+}
+
+.containerProfile h5 {
+  color: #70788e;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.containerProfile a {
+  color: #343a40;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.containerProfile a:hover {
+  color: #1DA1F2;
+}
+
+.header .backButton {
+  display: flex;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+.header .backButton i {
+  color: #343a40;
+  transition: 1s ease;
+}
+
+.header .backButton i:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 0.5s ease;
+}
